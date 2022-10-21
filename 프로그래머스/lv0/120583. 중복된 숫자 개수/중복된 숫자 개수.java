@@ -4,7 +4,7 @@ class Solution {
         for (int i = 0 ; i < array.length ; i++){
             // System.out.print(i);
             if(array[i] == n){
-                ++answer;
+                answer++;
                 System.out.print(answer);
             }
         } 
