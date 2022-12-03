@@ -3,9 +3,9 @@ class Solution {
         long answer = 0;
 
         for (int i = 0 ; i <= count; i++){
-            answer +=price * i; 
+            answer = answer + price * i; 
         }
-        answer -= money;
+        answer = answer - money;
         if(answer < 0) answer = 0;
         
         
