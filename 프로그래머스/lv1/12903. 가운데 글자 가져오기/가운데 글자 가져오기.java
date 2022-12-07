@@ -4,8 +4,8 @@ class Solution {
         if(s.length()%2 == 1){
             answer += s.charAt(s.length()/2); 
         } else {
-        answer += s.charAt(s.length()/2-1);
-        answer += s.charAt(s.length()/2);
+        answer = answer + s.charAt(s.length()/2-1);
+        answer = answer + s.charAt(s.length()/2);
         }
         return answer;
     }
