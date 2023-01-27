@@ -4,10 +4,10 @@ class Solution {
         
         for (int i = 0 ; i < n ; i++){
             System.out.print(i);
-            if(i%2 == 1){
-                answer += '박';
+            if(i % 2 == 1){
+                answer = answer + '박';
             } else {
-                answer += '수';
+                answer = answer + '수';
             }
         } 
         
