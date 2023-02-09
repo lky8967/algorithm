@@ -3,7 +3,6 @@ class Solution {
         String answer = "";
         
         for (int i = 0 ; i < n ; i++){
-            System.out.print(i);
             if(i % 2 == 1){
                 answer = answer + '박';
             } else {
