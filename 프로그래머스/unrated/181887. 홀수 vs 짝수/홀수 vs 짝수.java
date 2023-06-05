@@ -9,12 +9,12 @@ class Solution {
             } else {
                 b += num_list[i];
             }
-            if(a > b) {
+        }
+        if(a > b) {
                 answer = a;
             } else {
                 answer = b; 
             }
-        }
         return answer;
     }
 }
